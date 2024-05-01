@@ -9,7 +9,6 @@
 
 body {
     min-height: 100vh;
-    /* background-image: url(./assets/bg.svg); */
     background-color: #f3f8fb;
 }
 
@@ -100,13 +99,13 @@ a {
 }
 
 .hamburger--open .bar:nth-child(1) {
-    transform: translateY(7px) rotate(95deg);
+    transform: translateY(12px) rotate(135deg);
 }
 .hamburger--open .bar:nth-child(2) {
     opacity: 0;
 }
 .hamburger--open .bar:nth-child(3) {
-    transform: translateY(-95deg) rotate(-7px);
+    transform: translateY(-2px) rotate(-135deg);
 }
 
 .bar {
@@ -1415,7 +1414,7 @@ footer .top-rated {
     }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 2000px) {
     .testimonials-profile {
         /* width: 100%; */
         display: flex;
